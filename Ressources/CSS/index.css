@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/*Header and link */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("https://images.unsplash.com/photo-1656460990797-d8602507b5e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 12rem;
+}
+
+h1 {
+    color: azure;
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-items: baseline;
+    flex-direction: column;   
+}
+
+ul {
+    align-items:flex-end;
+}
+
+ul li {
+    display: inline;
+      
+}
+
+li a {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: azure;
+    padding: 1rem;
+}
+
+/* About us */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+.container {
+    padding-top: 3rem;
+    min-width: 175px;
+    width: 30%;
+}
+
+.container a {
+    text-decoration:none;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+}
+
+.container a:hover {
+    text-decoration:overline;
+    color: white;
+    font-size: 2.2rem;
+    
+}
+
+.container img {
+  height: 40%;
+  width: 100%;
+  
+}
+
+#tank, #healer {
+    height: 25%;
+    width: 40%;
+}
+
+.blue {
+    background: rgb(33,177,236);
+    background: radial-gradient(circle, rgba(33,177,236,1) 4%, rgba(33,40,236,1) 97%);;
+}
+
+.green {
+    background: rgb(21,203,60);
+    background: linear-gradient(90deg, rgba(21,203,60,1) 4%, rgba(21,203,42,0.6306897759103641) 52%, rgba(21,203,60,0.9976365546218487) 97%);
+}
+
+.red {
+    background: rgb(203,21,43);
+    background: linear-gradient(90deg, rgba(203,21,43,0.9640231092436975) 4%, rgba(203,48,21,0.6306897759103641) 52%, rgba(203,21,43,0.9668242296918768) 97%);
+}
+
+/* Watch and content section */
+
+#watch {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.spacer {
+    margin: 3rem auto;
+}
+
+.content {
+margin: 1rem 1rem;
+height: 20rem;
+width: 30%;
+min-width: 285px;
+background-color:rgba(100, 149, 237, 0.3)
+}
+
+.content img {
+   padding-top: 1rem;
+   width: 90%;
+   height: 60%
+}
+@media screen and (max-width:650px) {
+    #watch {
+        flex-direction: column;
+        }
+ .content {
+    width: 100%;
+    height: 35rem;
+ }
+}
+
+/* Sponsor */
+
+#partner {
+    margin: 1rem 0;
+    font-family: 'Kalam', cursive;
+    height: 5rem;
+    width: 100%;
+    background-image:url("https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg") ;
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    padding: 1rem 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+#partner h2 {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Application */
+
+
+/* Contact */
+
+footer {
+    background-color: rgba(105, 105, 105, 0.75);
+}
+#contact a {
+    margin-left: 2rem;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: red;
+}
+ 
+#contact p {
+    font-size: 0.5rem;
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 0;
+} 
+
+
