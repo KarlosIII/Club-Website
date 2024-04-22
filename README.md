@@ -2,8 +2,7 @@
 
 ## About the project
 
-Club Website project is a Codecademy project made to practice HTML/CSS, specially flexbox. I decide to make my project about a video game like in the old days when people use to make webpage for their clan/guild/group etc... Well before Discord.
-This is a fictionnal site where everything is created by me even the pizza discout.
+The Club Website project on Codecademy is a practical exercise focused on HTML/CSS, with a particular emphasis on flexbox techniques. I chose to create my project in the style of a vintage video game website, reminiscent of the days when webpages were crafted for gaming clans, guilds, and groups—long before platforms like Discord existed. This fictional site features original content created entirely by me, including even the pizza discount!
 
 ### Built with
 
@@ -38,4 +37,4 @@ none
 
 ## Contact
 
-carllafrance@hotmail.com
+
